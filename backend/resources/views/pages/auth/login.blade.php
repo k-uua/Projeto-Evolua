@@ -10,7 +10,7 @@
         <input type="password" name="senha" placeholder="Senha">
         <button type="submit">Entrar</button>
     </form>
-    <a href="`{{ route('registerPage') }}">Não possui uma conta? Cadastre-se!</a>
+    <a href="{{ route('registerPage') }}">Não possui uma conta? Cadastre-se!</a>
 </div>
 
 @endsection
