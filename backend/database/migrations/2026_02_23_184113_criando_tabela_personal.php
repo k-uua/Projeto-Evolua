@@ -14,8 +14,6 @@ return new class extends Migration
         Schema::create('personal', function (Blueprint $table) {
             $table->id();
             $table->string('biografia')->nullable();
-            $table->boolean('disponibilidade')->default(true);
-
             $table->foreignId('usuario_id')->constrained('usuarios')->onDelete('cascade'); 
         });
     }

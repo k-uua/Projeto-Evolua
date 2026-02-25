@@ -17,7 +17,7 @@ return new class extends Migration
         $table->string('nome');
         $table->string('sobrenome');
         $table->string('email')->unique(); // ALTERADO de timestamp para string
-        $table->string('senha');
+        $table->string('password'); 
         $table->enum('sexo', ['masculino', 'feminino', 'outro']);
         
         // CHAVE ESTRANGEIRA

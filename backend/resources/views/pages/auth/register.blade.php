@@ -3,24 +3,32 @@
 @section('conteudo')
 
 <div>
-    <h2>Registrar</h2>
-   <form action="" method="POST">
+    <h2>Cadastro personal</h2>
+
+    <form action="" method="POST" enctype="multipart/form-data">
         @csrf
+
         <input type="text" name="nome" placeholder="Nome" required>
         <input type="text" name="sobrenome" placeholder="Sobrenome" required>
         <input type="email" name="email" placeholder="Email" required>
-        <input type="password" name="senha" placeholder="Senha"required>
-        <input type="password_confirmation" name="confirm_password" placeholder="Confirmar Senha" required>
-        <input type="file" name="foto_perfil">
+
+        <input type="password" name="password" placeholder="Senha" required>
+        <input type="password" name="password_confirmation" placeholder="Confirmar Senha" required>
+
         <label for="foto_perfil">Foto de perfil</label>
-        <label for="sexo">Sexo</label>
-        <input type="radio" name="sexo"  value="masculino" placeholder="Masculino">
-        <input type="radio" name="sexo" value="feminino" placeholder="Feminino"> 
-        
-        
+        <input type="file" name="foto_perfil" id="foto_perfil" accept="image/*">
+
+        <p>Sexo</p>
+        <label><input type="radio" name="sexo" value="masculino" required> Masculino</label>
+        <label><input type="radio" name="sexo" value="feminino" required> Feminino</label>
+
+        <label for="biografia">Biografia</label>
+        <textarea name="biografia" id="biografia"></textarea>
+
         <button type="submit">Cadastrar</button>
     </form>
-    <a href="{{ route('registerPage') }}">Não possui uma conta? Cadastre-se!</a>
+
+    <a href="{{ route('login') }}">Já tem uma conta? Entrar</a>
 </div>
 
 @endsection
