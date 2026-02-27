@@ -22,10 +22,22 @@ O projeto está sendo desenvolvido com foco em escalabilidade e monetização fu
 
 * PHP 8+
 * Laravel
+* React
 * MySQL
 * Docker
 * Capacitor (versão mobile)
 * Git + GitHub
+
+---
+
+## 🏛️ Arquitetura
+
+* Controllers finos
+* Service Layer para regras de negócio
+* Jobs para tarefas assíncronas (envio de e-mail, e geração de PDF)
+* API REST 
+* Polices
+* Cache para otimização
 
 ---
 
