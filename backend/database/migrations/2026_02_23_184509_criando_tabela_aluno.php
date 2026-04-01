@@ -13,11 +13,10 @@ return new class extends Migration
     {
         Schema::create('aluno', function (Blueprint $table) {
             $table->id();
-            $table->dateTime('data_nascimento');
             $table->string('objetivo');
             $table->enum('nivel_atividade', ['iniciante', 'intermediario', 'avancado']);
             $table->string('observacao')->nullable();
-            $table->foreignId('usuario_id')->constrained('usuarios')->onDelete('cascade');
+            $table->foreignId('usuario_id')->nullable()->unique()->constrained('usuario')->nullOnDelete();
             $table->foreignId('personal_id')->nullable()->constrained('personal')->onDelete('set null'); 
             $table->timestamps();
         });

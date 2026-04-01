@@ -5,7 +5,7 @@
 <div>
     <h2>Cadastro personal</h2>
 
-    <form action="" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('register') }}" method="POST" enctype="multipart/form-data">
         @csrf
 
         <input type="text" name="nome" placeholder="Nome" required>

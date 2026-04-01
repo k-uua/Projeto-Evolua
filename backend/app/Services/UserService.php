@@ -13,6 +13,7 @@ class UserService
         return User::create([
             'nome' => $dados['nome'],
             'sobrenome' => $dados['sobrenome'],
+            'data_nascimento' => $dados['data_nascimento'],
             'email' =>$dados['email'],
             'password'=> Hash::make($dados['password']),
             'foto_perfil' => $dados['foto_perfil'],

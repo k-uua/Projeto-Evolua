@@ -11,17 +11,15 @@ return new class extends Migration
      */
     public function up(): void
 {
-    Schema::create('usuarios', function (Blueprint $table) {
-        $table->id(); // Cria o 'id' como BIGINT UNSIGNED
+    Schema::create('usuario', function (Blueprint $table) {
+        $table->id();
         $table->string('foto_perfil')->nullable();
-        $table->string('nome');
-        $table->string('sobrenome');
-        $table->string('email')->unique(); // ALTERADO de timestamp para string
+        $table->string('nome', 45);
+        $table->string('sobrenome', 45);
+        $table->dateTime('data_nascimento');
+        $table->string('email')->unique();
         $table->string('password'); 
         $table->enum('sexo', ['masculino', 'feminino', 'outro']);
-        
-        // CHAVE ESTRANGEIRA
-        // O método foreignId cria uma coluna 'perfil_id' compatível com o ID da tabela perfil
         $table->foreignId('perfil_id')->constrained('perfil'); 
         
         $table->rememberToken();
@@ -34,6 +32,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-         Schema::dropIfExists('usuarios');
+         Schema::dropIfExists('usuario');
     }
 };
