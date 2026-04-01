@@ -3,6 +3,7 @@
 namespace App\Models\Personal;
 
 use App\Models\User;
+use App\Models\Treino\Ficha;
 use Illuminate\Database\Eloquent\Model;
 
 class Personal extends Model
@@ -15,5 +16,10 @@ class Personal extends Model
 
     public function usuario(){
         return $this->belongsTo(User::class, 'usuario_id', 'personal_id');
+    }
+
+    public function fichas()
+    {
+        return $this->hasMany(Ficha::class, 'personal_id');
     }
 }
