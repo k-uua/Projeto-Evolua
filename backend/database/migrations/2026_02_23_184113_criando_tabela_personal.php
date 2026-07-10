@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('biografia')->nullable();
             $table->foreignId('usuario_id')->constrained('usuarios')->onDelete('cascade'); 
+            $table->timestamps();
         });
     }
 
@@ -23,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('perfil');
+        Schema::dropIfExists('personal');
     }
 };

@@ -1,0 +1,599 @@
+[
+  {
+    "nome": "Supino Reto",
+    "descricao": "Exercício composto para desenvolvimento do peitoral.",
+    "gif_url": "https://example.com/gifs/supino_reto.gif",
+    "grupo_muscular_id": 1
+  },
+  {
+    "nome": "Supino Inclinado",
+    "descricao": "Foco na porção superior do peitoral.",
+    "gif_url": "https://example.com/gifs/supino_inclinado.gif",
+    "grupo_muscular_id": 1
+  },
+  {
+    "nome": "Crucifixo",
+    "descricao": "Isolamento do peitoral.",
+    "gif_url": "https://example.com/gifs/crucifixo.gif",
+    "grupo_muscular_id": 1
+  },
+  {
+    "nome": "Barra Fixa",
+    "descricao": "Exercício composto para costas.",
+    "gif_url": "https://example.com/gifs/barra_fixa.gif",
+    "grupo_muscular_id": 2
+  },
+  {
+    "nome": "Remada Curvada",
+    "descricao": "Desenvolvimento da espessura das costas.",
+    "gif_url": "https://example.com/gifs/remada_curvada.gif",
+    "grupo_muscular_id": 2
+  },
+  {
+    "nome": "Pulldown",
+    "descricao": "Exercício para largura das costas.",
+    "gif_url": "https://example.com/gifs/pulldown.gif",
+    "grupo_muscular_id": 2
+  },
+  {
+    "nome": "Agachamento Livre",
+    "descricao": "Principal exercício para membros inferiores.",
+    "gif_url": "https://example.com/gifs/agachamento.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Leg Press",
+    "descricao": "Exercício para quadríceps e glúteos.",
+    "gif_url": "https://example.com/gifs/leg_press.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Mesa Flexora",
+    "descricao": "Isolamento dos posteriores de coxa.",
+    "gif_url": "https://example.com/gifs/mesa_flexora.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Desenvolvimento Militar",
+    "descricao": "Fortalecimento dos ombros.",
+    "gif_url": "https://example.com/gifs/desenvolvimento.gif",
+    "grupo_muscular_id": 4
+  },
+  {
+    "nome": "Elevação Lateral",
+    "descricao": "Isolamento do deltoide lateral.",
+    "gif_url": "https://example.com/gifs/elevacao_lateral.gif",
+    "grupo_muscular_id": 4
+  },
+  {
+    "nome": "Rosca Direta",
+    "descricao": "Exercício clássico para bíceps.",
+    "gif_url": "https://example.com/gifs/rosca_direta.gif",
+    "grupo_muscular_id": 5
+  },
+  {
+    "nome": "Rosca Martelo",
+    "descricao": "Trabalha bíceps e braquial.",
+    "gif_url": "https://example.com/gifs/rosca_martelo.gif",
+    "grupo_muscular_id": 5
+  },
+  {
+    "nome": "Tríceps Testa",
+    "descricao": "Exercício para cabeça longa do tríceps.",
+    "gif_url": "https://example.com/gifs/triceps_testa.gif",
+    "grupo_muscular_id": 6
+  },
+  {
+    "nome": "Tríceps Pulley",
+    "descricao": "Isolamento do tríceps.",
+    "gif_url": "https://example.com/gifs/triceps_pulley.gif",
+    "grupo_muscular_id": 6
+  },
+  {
+    "nome": "Prancha",
+    "descricao": "Fortalecimento do core.",
+    "gif_url": "https://example.com/gifs/prancha.gif",
+    "grupo_muscular_id": 7
+  },
+  {
+    "nome": "Abdominal Supra",
+    "descricao": "Foco no reto abdominal.",
+    "gif_url": "https://example.com/gifs/abdominal_supra.gif",
+    "grupo_muscular_id": 7
+  },
+  {
+    "nome": "Elevação Pélvica",
+    "descricao": "Fortalecimento dos glúteos.",
+    "gif_url": "https://example.com/gifs/elevacao_pelvica.gif",
+    "grupo_muscular_id": 8
+  },
+  {
+    "nome": "Rosca de Punho",
+    "descricao": "Exercício para antebraços.",
+    "gif_url": "https://example.com/gifs/rosca_punho.gif",
+    "grupo_muscular_id": 9
+  },
+  {
+    "nome": "Corrida",
+    "descricao": "Exercício cardiovascular.",
+    "gif_url": "https://example.com/gifs/corrida.gif",
+    "grupo_muscular_id": 10
+  },
+
+  {
+    "nome": "Supino Declinado",
+    "descricao": "Exercício para enfatizar a porção inferior do peitoral.",
+    "gif_url": "https://example.com/gifs/supino_declinado.gif",
+    "grupo_muscular_id": 1
+  },
+  {
+    "nome": "Crossover",
+    "descricao": "Isolamento do peitoral utilizando polias.",
+    "gif_url": "https://example.com/gifs/crossover.gif",
+    "grupo_muscular_id": 1
+  },
+  {
+    "nome": "Peck Deck",
+    "descricao": "Exercício isolador para o peitoral.",
+    "gif_url": "https://example.com/gifs/peck_deck.gif",
+    "grupo_muscular_id": 1
+  },
+  {
+    "nome": "Flexão de Braços",
+    "descricao": "Exercício utilizando o peso do corpo para trabalhar o peitoral.",
+    "gif_url": "https://example.com/gifs/flexao.gif",
+    "grupo_muscular_id": 1
+  },
+  {
+    "nome": "Supino com Halteres",
+    "descricao": "Variação do supino utilizando halteres.",
+    "gif_url": "https://example.com/gifs/supino_halteres.gif",
+    "grupo_muscular_id": 1
+  },
+
+  {
+    "nome": "Remada Baixa",
+    "descricao": "Exercício para desenvolvimento das costas.",
+    "gif_url": "https://example.com/gifs/remada_baixa.gif",
+    "grupo_muscular_id": 2
+  },
+  {
+    "nome": "Remada Unilateral",
+    "descricao": "Remada com halter para costas.",
+    "gif_url": "https://example.com/gifs/remada_unilateral.gif",
+    "grupo_muscular_id": 2
+  },
+  {
+    "nome": "Pullover",
+    "descricao": "Exercício para expansão da caixa torácica e dorsais.",
+    "gif_url": "https://example.com/gifs/pullover.gif",
+    "grupo_muscular_id": 2
+  },
+  {
+    "nome": "Remada Cavalinho",
+    "descricao": "Exercício composto para espessura das costas.",
+    "gif_url": "https://example.com/gifs/remada_cavalinho.gif",
+    "grupo_muscular_id": 2
+  },
+  {
+    "nome": "Puxada Neutra",
+    "descricao": "Exercício para largura das costas.",
+    "gif_url": "https://example.com/gifs/puxada_neutra.gif",
+    "grupo_muscular_id": 2
+  },
+
+  {
+    "nome": "Hack Squat",
+    "descricao": "Exercício para quadríceps.",
+    "gif_url": "https://example.com/gifs/hack_squat.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Afundo",
+    "descricao": "Exercício unilateral para pernas.",
+    "gif_url": "https://example.com/gifs/afundo.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Passada",
+    "descricao": "Exercício para quadríceps e glúteos.",
+    "gif_url": "https://example.com/gifs/passada.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Cadeira Extensora",
+    "descricao": "Isolamento do quadríceps.",
+    "gif_url": "https://example.com/gifs/extensora.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Stiff",
+    "descricao": "Exercício para posteriores de coxa.",
+    "gif_url": "https://example.com/gifs/stiff.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Levantamento Terra",
+    "descricao": "Exercício composto para cadeia posterior.",
+    "gif_url": "https://example.com/gifs/terra.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Panturrilha em Pé",
+    "descricao": "Fortalecimento das panturrilhas.",
+    "gif_url": "https://example.com/gifs/panturrilha_pe.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Panturrilha Sentado",
+    "descricao": "Exercício para sóleo.",
+    "gif_url": "https://example.com/gifs/panturrilha_sentado.gif",
+    "grupo_muscular_id": 3
+  },
+
+  {
+    "nome": "Arnold Press",
+    "descricao": "Desenvolvimento completo dos ombros.",
+    "gif_url": "https://example.com/gifs/arnold_press.gif",
+    "grupo_muscular_id": 4
+  },
+  {
+    "nome": "Elevação Frontal",
+    "descricao": "Exercício para deltoide anterior.",
+    "gif_url": "https://example.com/gifs/elevacao_frontal.gif",
+    "grupo_muscular_id": 4
+  },
+  {
+    "nome": "Crucifixo Invertido",
+    "descricao": "Trabalha o deltoide posterior.",
+    "gif_url": "https://example.com/gifs/crucifixo_invertido.gif",
+    "grupo_muscular_id": 4
+  },
+  {
+    "nome": "Face Pull",
+    "descricao": "Fortalece deltoides posteriores e manguito rotador.",
+    "gif_url": "https://example.com/gifs/face_pull.gif",
+    "grupo_muscular_id": 4
+  },
+
+  {
+    "nome": "Rosca Scott",
+    "descricao": "Isolamento dos bíceps.",
+    "gif_url": "https://example.com/gifs/rosca_scott.gif",
+    "grupo_muscular_id": 5
+  },
+  {
+    "nome": "Rosca Concentrada",
+    "descricao": "Foco máximo no bíceps.",
+    "gif_url": "https://example.com/gifs/rosca_concentrada.gif",
+    "grupo_muscular_id": 5
+  },
+  {
+    "nome": "Rosca Alternada",
+    "descricao": "Exercício clássico com halteres.",
+    "gif_url": "https://example.com/gifs/rosca_alternada.gif",
+    "grupo_muscular_id": 5
+  },
+  {
+    "nome": "Rosca Inversa",
+    "descricao": "Ênfase no braquiorradial.",
+    "gif_url": "https://example.com/gifs/rosca_inversa.gif",
+    "grupo_muscular_id": 5
+  },
+
+  {
+    "nome": "Mergulho nas Paralelas",
+    "descricao": "Exercício composto para tríceps.",
+    "gif_url": "https://example.com/gifs/paralelas.gif",
+    "grupo_muscular_id": 6
+  },
+  {
+    "nome": "Tríceps Francês",
+    "descricao": "Trabalha principalmente a cabeça longa do tríceps.",
+    "gif_url": "https://example.com/gifs/triceps_frances.gif",
+    "grupo_muscular_id": 6
+  },
+  {
+    "nome": "Coice de Tríceps",
+    "descricao": "Isolamento do tríceps.",
+    "gif_url": "https://example.com/gifs/coice.gif",
+    "grupo_muscular_id": 6
+  },
+
+  {
+    "nome": "Abdominal Infra",
+    "descricao": "Foco na região inferior do abdômen.",
+    "gif_url": "https://example.com/gifs/abdominal_infra.gif",
+    "grupo_muscular_id": 7
+  },
+  {
+    "nome": "Abdominal Oblíquo",
+    "descricao": "Trabalha os músculos oblíquos.",
+    "gif_url": "https://example.com/gifs/obliquo.gif",
+    "grupo_muscular_id": 7
+  },
+  {
+    "nome": "Elevação de Pernas",
+    "descricao": "Exercício para abdômen inferior.",
+    "gif_url": "https://example.com/gifs/elevacao_pernas.gif",
+    "grupo_muscular_id": 7
+  },
+  {
+    "nome": "Abdominal na Polia",
+    "descricao": "Abdominal utilizando carga.",
+    "gif_url": "https://example.com/gifs/abdominal_polia.gif",
+    "grupo_muscular_id": 7
+  },
+
+  {
+    "nome": "Coice de Glúteo",
+    "descricao": "Isolamento dos glúteos.",
+    "gif_url": "https://example.com/gifs/coice_gluteo.gif",
+    "grupo_muscular_id": 8
+  },
+  {
+    "nome": "Abdução de Quadril",
+    "descricao": "Fortalecimento do glúteo médio.",
+    "gif_url": "https://example.com/gifs/abducao.gif",
+    "grupo_muscular_id": 8
+  },
+
+  {
+    "nome": "Farmer Walk",
+    "descricao": "Fortalecimento do antebraço e pegada.",
+    "gif_url": "https://example.com/gifs/farmer_walk.gif",
+    "grupo_muscular_id": 9
+  },
+  {
+    "nome": "Rosca Punho Inversa",
+    "descricao": "Trabalha extensores do antebraço.",
+    "gif_url": "https://example.com/gifs/rosca_punho_inversa.gif",
+    "grupo_muscular_id": 9
+  },
+
+  {
+    "nome": "Bicicleta Ergométrica",
+    "descricao": "Exercício cardiovascular de baixo impacto.",
+    "gif_url": "https://example.com/gifs/bicicleta.gif",
+    "grupo_muscular_id": 10
+  },
+  {
+    "nome": "Elíptico",
+    "descricao": "Exercício aeróbico de corpo inteiro.",
+    "gif_url": "https://example.com/gifs/eliptico.gif",
+    "grupo_muscular_id": 10
+  },
+  {
+    "nome": "Pular Corda",
+    "descricao": "Exercício cardiovascular e coordenação.",
+    "gif_url": "https://example.com/gifs/pular_corda.gif",
+    "grupo_muscular_id": 10
+  },
+
+  {
+    "nome": "Supino Máquina",
+    "descricao": "Variação do supino utilizando máquina guiada.",
+    "gif_url": "https://example.com/gifs/supino_maquina.gif",
+    "grupo_muscular_id": 1
+  },
+  {
+    "nome": "Crucifixo Inclinado",
+    "descricao": "Isolamento da porção superior do peitoral.",
+    "gif_url": "https://example.com/gifs/crucifixo_inclinado.gif",
+    "grupo_muscular_id": 1
+  },
+  {
+    "nome": "Pullover com Halter",
+    "descricao": "Exercício para peitoral e serrátil.",
+    "gif_url": "https://example.com/gifs/pullover_halter.gif",
+    "grupo_muscular_id": 1
+  },
+  {
+    "nome": "Flexão Declinada",
+    "descricao": "Flexão com os pés elevados para maior ativação do peitoral superior.",
+    "gif_url": "https://example.com/gifs/flexao_declinada.gif",
+    "grupo_muscular_id": 1
+  },
+
+  {
+    "nome": "Puxada Alta Aberta",
+    "descricao": "Exercício para largura das costas.",
+    "gif_url": "https://example.com/gifs/puxada_alta_aberta.gif",
+    "grupo_muscular_id": 2
+  },
+  {
+    "nome": "Puxada Alta Fechada",
+    "descricao": "Variação da puxada alta com pegada fechada.",
+    "gif_url": "https://example.com/gifs/puxada_fechada.gif",
+    "grupo_muscular_id": 2
+  },
+  {
+    "nome": "Remada Máquina",
+    "descricao": "Remada guiada para desenvolvimento das costas.",
+    "gif_url": "https://example.com/gifs/remada_maquina.gif",
+    "grupo_muscular_id": 2
+  },
+  {
+    "nome": "Rack Pull",
+    "descricao": "Variação do levantamento terra focada na parte superior das costas.",
+    "gif_url": "https://example.com/gifs/rack_pull.gif",
+    "grupo_muscular_id": 2
+  },
+
+  {
+    "nome": "Agachamento Frontal",
+    "descricao": "Variação do agachamento com foco em quadríceps.",
+    "gif_url": "https://example.com/gifs/agachamento_frontal.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Agachamento Búlgaro",
+    "descricao": "Exercício unilateral para pernas e glúteos.",
+    "gif_url": "https://example.com/gifs/bulgaro.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Cadeira Abdutora",
+    "descricao": "Fortalecimento dos abdutores do quadril.",
+    "gif_url": "https://example.com/gifs/abdutora.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Cadeira Adutora",
+    "descricao": "Fortalecimento dos adutores.",
+    "gif_url": "https://example.com/gifs/adutora.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Levantamento Terra Romeno",
+    "descricao": "Exercício para posteriores e glúteos.",
+    "gif_url": "https://example.com/gifs/terra_romeno.gif",
+    "grupo_muscular_id": 3
+  },
+  {
+    "nome": "Glute Ham Raise",
+    "descricao": "Fortalecimento dos posteriores de coxa.",
+    "gif_url": "https://example.com/gifs/glute_ham_raise.gif",
+    "grupo_muscular_id": 3
+  },
+
+  {
+    "nome": "Desenvolvimento com Halteres",
+    "descricao": "Variação do desenvolvimento utilizando halteres.",
+    "gif_url": "https://example.com/gifs/desenvolvimento_halteres.gif",
+    "grupo_muscular_id": 4
+  },
+  {
+    "nome": "Elevação Lateral na Polia",
+    "descricao": "Maior tensão contínua no deltoide lateral.",
+    "gif_url": "https://example.com/gifs/elevacao_lateral_polia.gif",
+    "grupo_muscular_id": 4
+  },
+  {
+    "nome": "Remada Alta",
+    "descricao": "Trabalha trapézio e deltoides.",
+    "gif_url": "https://example.com/gifs/remada_alta.gif",
+    "grupo_muscular_id": 4
+  },
+  {
+    "nome": "Encolhimento de Ombros",
+    "descricao": "Exercício para trapézio.",
+    "gif_url": "https://example.com/gifs/encolhimento.gif",
+    "grupo_muscular_id": 4
+  },
+
+  {
+    "nome": "Rosca 21",
+    "descricao": "Método tradicional para fadiga dos bíceps.",
+    "gif_url": "https://example.com/gifs/rosca21.gif",
+    "grupo_muscular_id": 5
+  },
+  {
+    "nome": "Rosca na Polia",
+    "descricao": "Mantém tensão constante durante o movimento.",
+    "gif_url": "https://example.com/gifs/rosca_polia.gif",
+    "grupo_muscular_id": 5
+  },
+  {
+    "nome": "Rosca Spider",
+    "descricao": "Exercício isolador para bíceps.",
+    "gif_url": "https://example.com/gifs/rosca_spider.gif",
+    "grupo_muscular_id": 5
+  },
+
+  {
+    "nome": "Tríceps Corda",
+    "descricao": "Variação do tríceps pulley utilizando corda.",
+    "gif_url": "https://example.com/gifs/triceps_corda.gif",
+    "grupo_muscular_id": 6
+  },
+  {
+    "nome": "Supino Fechado",
+    "descricao": "Exercício composto para tríceps.",
+    "gif_url": "https://example.com/gifs/supino_fechado.gif",
+    "grupo_muscular_id": 6
+  },
+  {
+    "nome": "Tríceps Banco",
+    "descricao": "Utiliza o peso corporal para trabalhar tríceps.",
+    "gif_url": "https://example.com/gifs/triceps_banco.gif",
+    "grupo_muscular_id": 6
+  },
+
+  {
+    "nome": "Prancha Lateral",
+    "descricao": "Fortalece oblíquos e estabilizadores do core.",
+    "gif_url": "https://example.com/gifs/prancha_lateral.gif",
+    "grupo_muscular_id": 7
+  },
+  {
+    "nome": "Abdominal Bicicleta",
+    "descricao": "Exercício dinâmico para abdômen.",
+    "gif_url": "https://example.com/gifs/abdominal_bicicleta.gif",
+    "grupo_muscular_id": 7
+  },
+  {
+    "nome": "Dragon Flag",
+    "descricao": "Exercício avançado para o core.",
+    "gif_url": "https://example.com/gifs/dragon_flag.gif",
+    "grupo_muscular_id": 7
+  },
+
+  {
+    "nome": "Hip Thrust",
+    "descricao": "Principal exercício para desenvolvimento dos glúteos.",
+    "gif_url": "https://example.com/gifs/hip_thrust.gif",
+    "grupo_muscular_id": 8
+  },
+  {
+    "nome": "Agachamento Sumô",
+    "descricao": "Ênfase em glúteos e adutores.",
+    "gif_url": "https://example.com/gifs/agachamento_sumo.gif",
+    "grupo_muscular_id": 8
+  },
+  {
+    "nome": "Ponte de Glúteos",
+    "descricao": "Exercício para fortalecimento dos glúteos.",
+    "gif_url": "https://example.com/gifs/ponte_gluteos.gif",
+    "grupo_muscular_id": 8
+  },
+
+  {
+    "nome": "Hand Grip",
+    "descricao": "Fortalecimento da pegada e antebraços.",
+    "gif_url": "https://example.com/gifs/hand_grip.gif",
+    "grupo_muscular_id": 9
+  },
+  {
+    "nome": "Dead Hang",
+    "descricao": "Suspensão na barra para fortalecimento da pegada.",
+    "gif_url": "https://example.com/gifs/dead_hang.gif",
+    "grupo_muscular_id": 9
+  },
+
+  {
+    "nome": "Escada",
+    "descricao": "Exercício cardiovascular em simulador de escadas.",
+    "gif_url": "https://example.com/gifs/escada.gif",
+    "grupo_muscular_id": 10
+  },
+  {
+    "nome": "HIIT",
+    "descricao": "Treinamento intervalado de alta intensidade.",
+    "gif_url": "https://example.com/gifs/hiit.gif",
+    "grupo_muscular_id": 10
+  },
+  {
+    "nome": "Remo Ergométrico",
+    "descricao": "Exercício cardiovascular de corpo inteiro.",
+    "gif_url": "https://example.com/gifs/remo.gif",
+    "grupo_muscular_id": 10
+  }
+
+
+
+
+
+
+
+]

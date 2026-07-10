@@ -13,14 +13,14 @@ class CreateFichaDTO
         public string $nomeFicha,
     ){}
 
-    public static function fromRequest(array $dados){
+    public static function fromRequest(array $dados): self
+    {
         return new self(
-            statusFicha: $dados['status_ficha'],
-            divisaoId: $dados['divisao_id'],
-            personalId: $dados['personal_id'],
-            nomeFicha: $dados['nome_ficha'],
+           
+            statusFicha: $dados['status_ficha'] ?? $dados['statusFicha'],
+            divisaoId:   $dados['divisao_id'] ?? $dados['divisaoId'],
+            personalId:  $dados['personal_id'] ?? $dados['personalId'],
+            nomeFicha:   $dados['nome_ficha'] ?? $dados['nomeFicha'],
         );
     }
-
-
 }

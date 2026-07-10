@@ -3,10 +3,35 @@
 
 namespace App\Services\Treino;
 use App\DTO\CreateFichaDTO;
+use App\DTO\CreateFichaExercicioDTO;
 use App\DTO\UpdateFichaDTO;
 use App\Models\Treino\Ficha;
+use Illuminate\Support\Facades\DB;
 
 class FichaService {
+
+    public function __construct(private FichaExercicioService $fichaExercicioService){}
+    
+    
+    public function criarfichacompleta (CreateFichaDTO $fichaDto, array $exerciciosData): Ficha
+        {
+            try{
+                return DB::transaction(function ()use ($fichaDto, $exerciciosData){
+                $ficha = $this->criarFicha($fichaDto);
+
+                foreach($exerciciosData as $ex){
+                    $ex['fichaId'] = $ficha->id;
+                    $dtoExercicio = CreateFichaExercicioDTO::fromRequest($ex);
+                    $this->fichaExercicioService->criarFichaExercicio($dtoExercicio);
+                }
+
+                return $ficha;
+            });
+            }catch(\Exception $e){
+                throw new \Exception("Erro ao criar ficha completa: " . $e->getMessage());
+            }
+            
+        }
     public function criarFicha(CreateFichaDTO $dto) : Ficha
     {
         try{
@@ -43,15 +68,17 @@ class FichaService {
     {
         try{
             $ficha = Ficha::findOrFail($dto->id);
-            $ficha->update([
-
+            $dadosParaAtualizar = array_filter([
                 'status_ficha' => $dto->statusFicha,
                 'divisao_id' => $dto->divisaoId,
                 'personal_id' => $dto->personalId,
                 'nome_ficha' => $dto->nomeFicha,
-                
-            ]);
+            ], function($value) {
+                return !is_null($value);
+            });
+            $ficha->update($dadosParaAtualizar);
             return $ficha;
+
         }catch(\Exception $e){
             throw new \Exception("Erro ao atualizar ficha: " . $e->getMessage());
 

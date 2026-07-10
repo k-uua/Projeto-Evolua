@@ -30,6 +30,15 @@ class ExercicioService {
         }
     }
 
+    public function buscarExercicioPorNome(string $nome) 
+    {
+        try{
+            return Exercicio::where('nome_exercicio', 'like', '%' . $nome . '%')->get();
+        }catch(\Exception $e){
+            throw new \Exception("Erro ao buscar exercício por nome: " . $e->getMessage());
+        }
+    }
+
     public function buscarExercicioPorId(int $id) : ?Exercicio
     {
         try{

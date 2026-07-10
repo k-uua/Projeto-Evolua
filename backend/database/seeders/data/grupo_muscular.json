@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nome": "Peito"
+  },
+  {
+    "id": 2,
+    "nome": "Costas"
+  },
+  {
+    "id": 3,
+    "nome": "Pernas"
+  },
+  {
+    "id": 4,
+    "nome": "Ombros"
+  },
+  {
+    "id": 5,
+    "nome": "Bíceps"
+  },
+  {
+    "id": 6,
+    "nome": "Tríceps"
+  },
+  {
+    "id": 7,
+    "nome": "Abdômen"
+  },
+  {
+    "id": 8,
+    "nome": "Glúteos"
+  },
+  {
+    "id": 9,
+    "nome": "Antebraço"
+  },
+  {
+    "id": 10,
+    "nome": "Cardio"
+  }
+]

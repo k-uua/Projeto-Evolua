@@ -7,9 +7,15 @@ use App\Models\Treino\FichaExercicio as FichaExercicioModel;
 
 Class FichaExercicioService {
 
+
+
+    
+
     public function criarFichaExercicio(CreateFichaExercicioDTO $dto) : FichaExercicioModel
     {
         try{
+
+
             return FichaExercicioModel::create([
                 'ficha_id' => $dto ->fichaId,
                 'exercicio_id' => $dto ->exercicioId,
