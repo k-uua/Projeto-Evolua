@@ -4,32 +4,44 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\RegisterRequest;
-use App\Http\Requests\Personal\PersonalRequest;
-use App\Models\Personal\Personal;
+
 use App\Services\UserService;
-use Illuminate\Http\Request;
+use App\DTO\CreateUserDTO;
+use App\Traits\ApiResponseTrait;
+use Illuminate\Http\JsonResponse;
+
+
+
+
 
 class RegisterController extends Controller
 {
-    public function index()
+
+
+    use ApiResponseTrait;
+    private UserService $userService;
+
+
+    public function __construct(UserService $userService)
     {
-        return view('pages.auth.register');
+        $this->userService = $userService;
     }
-
-    public function store(RegisterRequest $request, PersonalRequest $personalRequest,UserService $userService){
-        $request->validaded();
-        $personalRequest->validated();
-        $perfilPersonal = 1;
-
-        $usuario = $userService->criarUsuario(
-            $request->all(),
-            $perfilPersonal
-        );
     
-        Personal::create([
-            'usuario_id' => $usuario->id,
-            'biografia' => $personalRequest->biografia,
-        ]);
+
+    public function store(RegisterRequest $request):JsonResponse
+    {
+
+
+        return $this->handleResponse(function () use ($request) {
+            $userDTO = CreateUserDTO::fromRequest($request->validated());
+            return $this->userService->criarUsuario($userDTO);
+        }, "Sucesso ao criar usuário", 201);
+
+
+
     }
+
+    
+    
 }
  

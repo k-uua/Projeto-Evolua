@@ -14,6 +14,9 @@ return new class extends Migration
         Schema::create('personal', function (Blueprint $table) {
             $table->id();
             $table->string('biografia')->nullable();
+            $table->string('cref')->nullable();
+            $table->string('status')->default('ativo');
+            $table->string('status_aprovacao')->default('pendente');
             $table->foreignId('usuario_id')->constrained('usuarios')->onDelete('cascade'); 
             $table->timestamps();
         });

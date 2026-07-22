@@ -7,7 +7,7 @@
    <form action="{{ route('login') }}" method="POST">
         @csrf
         <input type="email" name="email" placeholder="Email">
-        <input type="password" name="senha" placeholder="Senha">
+        <input type="password" name="password" placeholder="Senha">
         <button type="submit">Entrar</button>
     </form>
     <a href="{{ route('registerPage') }}">Não possui uma conta? Cadastre-se!</a>
